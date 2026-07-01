@@ -2315,64 +2315,30 @@ onmouseover=" this.style.background='#e05313'; this.style.boxShadow='0 0 15px rg
 		
 	<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; padding: 40px; font-family: sans-serif; background-color: #f0f2f5;">
   
-  <div onmouseenter="this.querySelector('.hover-panel').style.transform='translateY(-50%) scaleX(1)'; this.querySelector('.hover-panel').style.opacity='1'; this.querySelector('.hover-panel').style.right='100%';" 
-       onmouseleave="this.querySelector('.hover-panel').style.transform='translateY(-50%) scaleX(0)'; this.querySelector('.hover-panel').style.opacity='0'; this.querySelector('.hover-panel').style.right='0';"
-       style="position: relative; height: 180px; background-color: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(0,0,0,0.05); cursor: pointer;">
-    <span style="font-weight: bold; color: #1e558c; font-size: 18px;">Support Desk</span>
-    
-    <div class="hover-panel" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%) scaleX(0); transform-origin: right; opacity: 0; display: flex; flex-direction: row; gap: 6px; background-color: rgba(176, 187, 195, 0.95); padding: 6px; border-radius: 8px 0 0 8px; backdrop-filter: blur(5px); transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
-      <a href="sms:+1234567890" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 6px; text-decoration: none; font-size: 18px; background-color: #1e558c;" title="SMS"><i class="fa-solid fa-comment-sms"></i></a>
-      <a href="https://wa.me/1234567890" target="_blank" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 6px; text-decoration: none; font-size: 18px; background-color: #25D366;" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-      <a href="https://m.me/yourfacebookpage" target="_blank" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 6px; text-decoration: none; font-size: 18px; background-color: #0084FF;" title="Messenger"><i class="fa-brands fa-facebook-messenger"></i></a>
-    </div>
-  </div>
-
-  <div onmouseenter="this.querySelector('.hover-panel').style.transform='translateY(-50%) scaleX(1)'; this.querySelector('.hover-panel').style.opacity='1'; this.querySelector('.hover-panel').style.right='100%';" 
-       onmouseleave="this.querySelector('.hover-panel').style.transform='translateY(-50%) scaleX(0)'; this.querySelector('.hover-panel').style.opacity='0'; this.querySelector('.hover-panel').style.right='0';"
-       style="position: relative; height: 180px; background-color: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(0,0,0,0.05); cursor: pointer;">
-    <span style="font-weight: bold; color: #1e558c; font-size: 18px;">Sales Dept</span>
-    
-    <div class="hover-panel" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%) scaleX(0); transform-origin: right; opacity: 0; display: flex; flex-direction: row; gap: 6px; background-color: rgba(176, 187, 195, 0.95); padding: 6px; border-radius: 8px 0 0 8px; backdrop-filter: blur(5px); transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
-      <a href="sms:+1234567890" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 6px; text-decoration: none; font-size: 18px; background-color: #1e558c;" title="SMS"><i class="fa-solid fa-comment-sms"></i></a>
-      <a href="https://wa.me/1234567890" target="_blank" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 6px; text-decoration: none; font-size: 18px; background-color: #25D366;" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-      <a href="https://m.me/yourfacebookpage" target="_blank" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 6px; text-decoration: none; font-size: 18px; background-color: #0084FF;" title="Messenger"><i class="fa-brands fa-facebook-messenger"></i></a>
-    </div>
-  </div>
-
-  <div onmouseenter="this.querySelector('.hover-panel').style.transform='translateY(-50%) scaleX(1)'; this.querySelector('.hover-panel').style.opacity='1'; this.querySelector('.hover-panel').style.right='100%';" 
-       onmouseleave="this.querySelector('.hover-panel').style.transform='translateY(-50%) scaleX(0)'; this.querySelector('.hover-panel').style.opacity='0'; this.querySelector('.hover-panel').style.right='0';"
-       style="position: relative; height: 180px; background-color: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(0,0,0,0.05); cursor: pointer;">
-    <span style="font-weight: bold; color: #1e558c; font-size: 18px;">Billing Info</span>
-    
-    <div class="hover-panel" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%) scaleX(0); transform-origin: right; opacity: 0; display: flex; flex-direction: row; gap: 6px; background-color: rgba(176, 187, 195, 0.95); padding: 6px; border-radius: 8px 0 0 8px; backdrop-filter: blur(5px); transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
-      <a href="sms:+1234567890" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 6px; text-decoration: none; font-size: 18px; background-color: #1e558c;" title="SMS"><i class="fa-solid fa-comment-sms"></i></a>
-      <a href="https://wa.me/1234567890" target="_blank" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 6px; text-decoration: none; font-size: 18px; background-color: #25D366;" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-      <a href="https://m.me/yourfacebookpage" target="_blank" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 6px; text-decoration: none; font-size: 18px; background-color: #0084FF;" title="Messenger"><i class="fa-brands fa-facebook-messenger"></i></a>
-    </div>
-  </div>
-
-  <div onmouseenter="this.querySelector('.hover-panel').style.transform='translateY(-50%) scaleX(1)'; this.querySelector('.hover-panel').style.opacity='1'; this.querySelector('.hover-panel').style.right='100%';" 
-       onmouseleave="this.querySelector('.hover-panel').style.transform='translateY(-50%) scaleX(0)'; this.querySelector('.hover-panel').style.opacity='0'; this.querySelector('.hover-panel').style.right='0';"
-       style="position: relative; height: 180px; background-color: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 12px; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(0,0,0,0.05); cursor: pointer;">
-    <span style="font-weight: bold; color: #1e558c; font-size: 18px;">General Inquiry</span>
-    
-    <div class="hover-panel" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%) scaleX(0); transform-origin: right; opacity: 0; display: flex; flex-direction: row; gap: 6px; background-color: rgba(176, 187, 195, 0.95); padding: 6px; border-radius: 8px 0 0 8px; backdrop-filter: blur(5px); transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
-      <a href="sms:+1234567890" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 6px; text-decoration: none; font-size: 18px; background-color: #1e558c;" title="SMS"><i class="fa-solid fa-comment-sms"></i></a>
-      <a href="https://wa.me/1234567890" target="_blank" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 6px; text-decoration: none; font-size: 18px; background-color: #25D366;" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-      <a href="https://m.me/yourfacebookpage" target="_blank" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; border-radius: 6px; text-decoration: none; font-size: 18px; background-color: #0084FF;" title="Messenger"><i class="fa-brands fa-facebook-messenger"></i></a>
-    </div>
-  </div>
+  
 
 </div>
 
 
 <div style="position: fixed; right: 0; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; padding: 15px 0 15px 15px; border-top-left-radius: 4px; border-bottom-left-radius: 4px; gap: 2px; z-index: 9999; font-family: sans-serif;">
-  <a href="tel:+1234567890" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background-color: #1e558c; color: #ffffff; text-decoration: none;" title="Call Us"><i class="fa-solid fa-phone-flip" style="font-size: 22px;"></i></a>
-  <a href="mailto:info@example.com" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background-color: #1e558c; color: #ffffff; text-decoration: none;" title="Email Us"><i class="fa-solid fa-envelope" style="font-size: 22px;"></i></a>
-  <a href="https://wa.me/1234567890" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background-color: #1e558c; color: #ffffff; text-decoration: none;" title="WhatsApp 1"><i class="fa-brands fa-whatsapp" style="font-size: 22px;"></i></a>
-  <a href="https://wa.me/0987654321" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background-color: #1e558c; color: #ffffff; text-decoration: none;" title="WhatsApp 2"><i class="fa-brands fa-whatsapp" style="font-size: 22px;"></i></a>
-  <a href="skype:your_skype_id?chat" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background-color: #1e558c; color: #ffffff; text-decoration: none;" title="Skype 1"><i class="fa-brands fa-skype" style="font-size: 22px;"></i></a>
-  <a href="skype:another_skype_id?chat" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background-color: #1e558c; color: #ffffff; text-decoration: none;" title="Skype 2"><i class="fa-brands fa-skype" style="font-size: 22px;"></i></a>
+<!-- Phone -->
+<a href="tel:+97148800987" style="display:flex;align-items:center;justify-content:center;width:50px;height:50px;background:rgba(37,211,102,.18);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(37,211,102,.35);border-radius:50%;color:#25D366;text-decoration:none;box-shadow:0 8px 20px rgba(0,0,0,.15);transition:.3s;" title="Call Us"><i class="fa-solid fa-phone-flip" style="font-size:22px;"></i></a>
+
+<!-- Email -->
+<a href="mailto:salesb2bdubai24@gmail.com" style="display:flex;align-items:center;justify-content:center;width:50px;height:50px;background:rgba(234,67,53,.18);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(234,67,53,.35);border-radius:50%;color:#EA4335;text-decoration:none;box-shadow:0 8px 20px rgba(0,0,0,.15);transition:.3s;" title="Email Us"><i class="fa-solid fa-envelope" style="font-size:22px;"></i></a>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/971557755964" target="_blank" style="display:flex;align-items:center;justify-content:center;width:50px;height:50px;background:rgba(37,211,102,.18);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(37,211,102,.35);border-radius:50%;color:#25D366;text-decoration:none;box-shadow:0 8px 20px rgba(0,0,0,.15);transition:.3s;" title="WhatsApp"><i class="fa-brands fa-whatsapp" style="font-size:22px;"></i></a>
+
+<!-- RFQ -->
+<a href="rfq.html" target="_blank" style="display:flex;align-items:center;justify-content:center;width:50px;height:50px;background:rgba(255,152,0,.18);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,152,0,.35);border-radius:50%;color:#FF9800;text-decoration:none;box-shadow:0 8px 20px rgba(0,0,0,.15);transition:.3s;" title="Request for Quotation"><i class="fas fa-file-invoice-dollar" style="font-size:22px;"></i></a>
+
+<!-- Skype -->
+<a href="skype:your_skype_id?chat" style="display:flex;align-items:center;justify-content:center;width:50px;height:50px;background:rgba(0,175,240,.18);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(0,175,240,.35);border-radius:50%;color:#00AFF0;text-decoration:none;box-shadow:0 8px 20px rgba(0,0,0,.15);transition:.3s;" title="Skype"><i class="fa-brands fa-skype" style="font-size:22px;"></i></a>
+
+<!-- Help -->
+<a href="help.html" style="display:flex;align-items:center;justify-content:center;width:50px;height:50px;background:rgba(59,130,246,.18);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(59,130,246,.35);border-radius:50%;color:#3B82F6;text-decoration:none;box-shadow:0 8px 20px rgba(0,0,0,.15);transition:.3s;" title="Help Center"><i class="fas fa-headset" style="font-size:22px;"></i></a>
+  
 </div>
 
 
@@ -2391,15 +2357,15 @@ onmouseover=" this.style.background='#e05313'; this.style.boxShadow='0 0 15px rg
 		
 		
         <div class="carousel-slide absolute inset-0 w-full h-full opacity-100 transition-opacity duration-1000 ease-in-out flex items-center">
-            <img src="https://i.ibb.co/wNQxNc4f/bg2.png" alt="Running Shoes" class="absolute inset-0 w-full h-full object-cover  mix-blend-multiply">
+            <img src="https://i.ibb.co/rGMkytm3/bgh.png" alt="Running Shoes" class="absolute inset-0 w-full h-full object-cover  mix-blend-multiply">
             
             <div class="relative z-10 px-10 md:px-16 md:w-2/3">
-                <p class="text-white font-semibold mb-2 text-lg">Direct from Verified Manufacturers</p>
-                <h2 class="text-4xl md:text-5xl font-extrabold text-[#2F4F4F] leading-tight mb-2"> Luxury Furniture</h2>
-                <p class="text-xl text-gray-400 mb-6 font-medium">Bulk Orders up to <span class="text-secondary font-bold">30% OFF</span></p>
-                <button class="bg-blue-600 border-textDark text-textDark font-bold py-3 px-8 rounded-[25px] hover:bg-textDark hover:text-white transition duration-300 flex items-center space-x-2">
-    <span>SOURCE NOW</span>
-    <i class="fas fa-arrow-right"></i>
+                <p class="text-white font-semibold mb-2 text-lg"> </p>
+                <h2 class="text-4xl md:text-5xl font-extrabold text-[#2F4F4F] leading-tight mb-2">  </h2>
+                <p class="text-xl text-gray-400 mb-6 font-medium"> <span class="text-secondary font-bold"></span></p>
+                <button class="border-textDark text-textDark font-bold py-3 px-8 rounded-[25px] hover:bg-textDark hover:text-white transition duration-300 flex items-center space-x-2">
+    <span></span>
+    <i class=" "></i>
 </button>
             </div>
         </div>
